@@ -8,3 +8,7 @@
 
 - Task 3:
 ![image](https://github.com/essaathar/OIBSIP/assets/122386200/07be639d-4b0e-4799-b134-3bc22e4b9b79)
+
+
+
+IMPORTANT Note: For **Task 1**, the **'logo'** and **'event'** images have been removed due to privacy concerns.
