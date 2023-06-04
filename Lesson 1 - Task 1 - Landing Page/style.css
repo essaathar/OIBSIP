@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap'); /* Cabin Font taken from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(255 116 171);
+}
+
+header{
+    background-color: black;
+}
+
+.overall-container{
+    /* max-width: 80vw; */
+    font-family: 'Cabin', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    height: 67px;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+
+.top-left{
+    width: 50%;
+    height: 50vh;
+}
+
+.top-right{
+    width: 50%;
+    height: 50vh;
+}
+
+.section2{
+    padding: 63px;
+}
+.section3{
+    padding: 63px;
+}
+
+/* .company-name{
+    font-size: 1.5rem;
+} */
+
+.top-products-container{
+    padding: 40px;
+    justify-content: center;
+}
+
+.box1{
+    width: 186px;
+    height: 246px;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12px 22px;
+    background-image: url(item1.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.box1:hover{
+    box-shadow: 0 0 0 200px rgba(255,255,255) inset;
+} 
+
+
+.box1:hover button{
+    opacity: 1;
+    transform: scale(1);
+}
+
+.box1 figcaption{
+    opacity: 0;
+    transform: scale(0);
+    transition: 0.8s;
+}
+
+.box1:hover figcaption{
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+
+.box2{
+    width: 186px;
+    height: 246px;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12px 22px;
+    background-image: url(item2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.box2:hover{
+    box-shadow: 0 0 0 200px rgba(255,255,255) inset;
+} 
+
+
+.box2:hover button{
+    opacity: 1;
+    transform: scale(1);
+}
+
+.box2 figcaption{
+    opacity: 0;
+    transform: scale(0);
+    transition: 0.8s;
+}
+
+.box2:hover figcaption{
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+
+.box3{
+    width: 186px;
+    height: 246px;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12px 22px;
+    background-image: url(item3.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.box3:hover{
+    box-shadow: 0 0 0 200px rgba(255,255,255) inset;
+} 
+
+
+.box3:hover button{
+    opacity: 1;
+    transform: scale(1);
+}
+
+.box3 figcaption{
+    opacity: 0;
+    transform: scale(0);
+    transition: 0.8s;
+}
+
+.box3:hover figcaption{
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+.box4{
+    width: 186px;
+    height: 246px;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12px 22px;
+    background-image: url(clay\ tags.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.box4:hover{
+    box-shadow: 0 0 0 200px rgba(255,255,255) inset;
+} 
+
+
+.box4:hover button{
+    opacity: 1;
+    transform: scale(1);
+}
+
+.box4 figcaption{
+    opacity: 0;
+    transform: scale(0);
+    transition: 0.8s;
+}
+
+.box4:hover figcaption{
+    opacity: 1;
+    transform: scale(1);
+}
+
+.events-container{
+    flex-direction: row;
+	justify-content: center;
+    padding: 39px;
+}
+
+.event-img{
+    /* width: 365px;
+    height: 414px; */
+    width: 388px;
+    margin: 0 22px;
+	transition: 1s;
+}
+
+.event-img img{
+    display: block;
+    width:100%;
+    border-radius: 5px;
+}
+
+.event-img:hover{
+    transform: scale(1.09);
+    z-index: 2;
+}
+
+.white{
+    color: white;
+}
+
+.copyright{
+    /* padding: 23px;
+    text-align: center; */
+    background-color: rgb(48, 46, 46);
+    font-family: 'Poppins', sans-serif;
+    color: #bbbbbb;
+}
+
+
+.btn{
+    padding: 4px 10px;
+    /* border: 0.2px solid white; */
+    border-radius: 12px;
+    cursor: pointer;
+    color: white;
+    background-color: deeppink;
+    transition: all 0.5s;
+    font-weight: bold;
+}
+
+.btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+.btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .btn:hover span {
+    padding-right: 25px;
+  }
+  
+  .btn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+  .name-and-logo {
+    position: relative;
+    /* display: inline-block; */
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+  }
+
+  .name-and-logo span {
+    transition: transform 0.3s;
+  }
+
+  .name-and-logo:hover span {
+    transform: translateX(13px); /* moves company name to right */
+  }
+
+
+  .logo{
+    border-radius: 5px;
+    width: 60px;
+    height: 59px;
+  }
+
+  .name-and-logo img{
+    opacity: 0;
+  }
+
+  .name-and-logo:hover img{
+    opacity: 1;
+  }
+
+
+hr {
+    border: 2px groove rgb(232, 89, 113);
+}

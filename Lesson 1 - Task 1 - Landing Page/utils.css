@@ -1,0 +1,72 @@
+.min-h-screen{
+    min-height: 50vh;
+}
+
+.bg-pink{
+    background-color: rgb(224, 72, 133);
+}
+
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+/* .font-bold{
+    font-weight: 900;
+} */
+
+.flex-col{
+    flex-direction: column;
+}
+
+.my-1{
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+.px-2{
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.text-grey{
+    color: rgb(0, 0, 0);
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+
+.vector-img-size{
+    width: 502px;
+}
+
+.bg-grey{
+    background-color: rgb(107, 106, 106);
+}
+
+.bg-deeppink{
+    color: deeppink;
+}
+
+.bg-whitesmoke{
+    color: whitesmoke;
+}
