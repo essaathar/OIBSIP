@@ -62,7 +62,7 @@ header{
     align-items: center;
     justify-content: center;
     margin: 12px 22px;
-    background-image: url(item1.jpg);
+    background-image: url(images/item1.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 5px;
@@ -99,7 +99,7 @@ header{
     align-items: center;
     justify-content: center;
     margin: 12px 22px;
-    background-image: url(item2.jpg);
+    background-image: url(images/item2.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 5px;
@@ -136,7 +136,7 @@ header{
     align-items: center;
     justify-content: center;
     margin: 12px 22px;
-    background-image: url(item3.jpg);
+    background-image: url(images/item3.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 5px;
@@ -172,7 +172,7 @@ header{
     align-items: center;
     justify-content: center;
     margin: 12px 22px;
-    background-image: url(clay\ tags.jpg);
+    background-image: url(images/clay\ tags.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 5px;
